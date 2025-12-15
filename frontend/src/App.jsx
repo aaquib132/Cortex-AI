@@ -17,7 +17,7 @@ const App = () => {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://localhost:5000/ask", { prompt });
+      const res = await axios.post("https://cortex-ai-backend-haz2.onrender.com/ask", { prompt });
       if (res.data.status) {
         const aiMessage = {
           role: "ai",
