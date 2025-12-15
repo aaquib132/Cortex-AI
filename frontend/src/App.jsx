@@ -107,7 +107,7 @@ const App = () => {
 
           <button
             onClick={sendMessage}
-            className="bg-blue-600 hover:bg-blue-700 transition px-6 rounded-xl font-semibold"
+            className="bg-blue-600 hover:bg-blue-700 cursor-pointer transition px-6 rounded-xl font-semibold"
           >
             Send
           </button>
